@@ -1,21 +1,19 @@
 //
-//  PageViewController.swift
+//  AbstractionViewController.swift
 //  AbstractionProject
 //
-//  Created by Porter, Tyler on 12/13/19.
+//  Created by Porter, Tyler on 12/17/19.
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
 import UIKit
 
-class PageViewController: UIViewController
-{
+class AbstractionViewController: UIPageViewController {
 
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup =after loading the view.
+        // Do any additional setup after loading the view.
     }
     
 
