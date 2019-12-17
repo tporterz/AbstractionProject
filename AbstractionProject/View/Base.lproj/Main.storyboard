@@ -3,15 +3,170 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Block Code-->
+        <scene sceneID="9vH-HW-rBd">
+            <objects>
+                <viewController storyboardIdentifier="BlockViewController" title="Block Code" id="Nce-PL-MW9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ctj-7B-0iL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="JavaBlockCodeFavorite" translatesAutoresizingMaskIntoConstraints="NO" id="1TM-Or-H1R">
+                                <rect key="frame" x="87" y="320" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#ALittleComplex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxp-ls-1eN">
+                                <rect key="frame" x="87" y="504" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1TM-Or-H1R" firstAttribute="width" secondItem="gxp-ls-1eN" secondAttribute="width" multiplier="5.71429" id="ozP-9k-hs8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9HH-WP-CJT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ewz-fW-XQB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1230" y="410"/>
+        </scene>
+        <!--Swift Code-->
+        <scene sceneID="V4S-WY-6z9">
+            <objects>
+                <viewController storyboardIdentifier="SwiftViewController" title="Swift Code" id="nCl-PS-UUB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HtF-SH-oVM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="SwiftCodeMostIntense" translatesAutoresizingMaskIntoConstraints="NO" id="RLA-Fu-fEY">
+                                <rect key="frame" x="87" y="320" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#RelativelyBasic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxv-U1-diZ">
+                                <rect key="frame" x="87" y="504" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RLA-Fu-fEY" firstAttribute="width" secondItem="vxv-U1-diZ" secondAttribute="width" multiplier="5.71429" id="jkn-W4-Tux"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1ee-8r-zpa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Dl-hr-wfJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-591" y="408"/>
+        </scene>
         <!--Abstraction View Controller-->
         <scene sceneID="uHg-Dr-Fnr">
             <objects>
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="dQ3-f9-wim" customClass="AbstractionViewController" customModule="AbstractionProject" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9IM-rd-bUL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48" y="5"/>
+            <point key="canvasLocation" x="57" y="-246"/>
+        </scene>
+        <!--Byte Code-->
+        <scene sceneID="ctg-7X-oeW">
+            <objects>
+                <viewController storyboardIdentifier="ByteCodeViewController" title="Byte Code" id="dd5-CH-NcL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Lx-Ro-Tja">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="ClassByteCode" translatesAutoresizingMaskIntoConstraints="NO" id="NzC-C8-4Za">
+                                <rect key="frame" x="87" y="320" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#SomewhatComplex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMB-ve-GO1">
+                                <rect key="frame" x="87" y="504" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NzC-C8-4Za" firstAttribute="width" secondItem="bMB-ve-GO1" secondAttribute="width" multiplier="5.71429" id="rOe-wG-Vcp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mhf-bI-Wus"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mUZ-vK-PEd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="42" y="408"/>
+        </scene>
+        <!--Binary Code-->
+        <scene sceneID="lvu-Wt-itC">
+            <objects>
+                <viewController storyboardIdentifier="BinaryViewController" title="Binary Code" id="CFO-zK-1Fh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xRO-Xa-Huw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="binary-code" translatesAutoresizingMaskIntoConstraints="NO" id="kHn-CK-41L">
+                                <rect key="frame" x="87" y="320" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#Basic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxv-o6-2Zk">
+                                <rect key="frame" x="87" y="504" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kHn-CK-41L" firstAttribute="width" secondItem="dxv-o6-2Zk" secondAttribute="width" multiplier="5.71429" id="JJB-EI-Cc8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cG2-VY-19T"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RVG-h6-oxl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="408"/>
+        </scene>
+        <!--Logical Gate-->
+        <scene sceneID="KQV-6R-ybg">
+            <objects>
+                <viewController storyboardIdentifier="LogicalGateViewController" title="Logical Gate" id="aYg-6R-rna" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O6G-mt-3Hz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logic-gates" translatesAutoresizingMaskIntoConstraints="NO" id="6xE-Is-GGN">
+                                <rect key="frame" x="87" y="320" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#VeryBasic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdd-Ve-eby">
+                                <rect key="frame" x="87" y="504" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6xE-Is-GGN" firstAttribute="width" secondItem="Pdd-Ve-eby" secondAttribute="width" multiplier="5.71429" id="jAz-wG-05p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lMa-jc-H9o"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9a-Cz-2Vc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1345" y="408"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ClassByteCode" width="834" height="389"/>
+        <image name="JavaBlockCodeFavorite" width="1622" height="1634"/>
+        <image name="SwiftCodeMostIntense" width="1238" height="1496"/>
+        <image name="binary-code" width="400" height="224"/>
+        <image name="logic-gates" width="518" height="307"/>
+    </resources>
 </document>
