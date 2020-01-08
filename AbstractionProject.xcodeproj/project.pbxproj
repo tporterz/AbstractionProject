@@ -12,6 +12,7 @@
 		46792D8823A3F165000A0818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46792D8723A3F165000A0818 /* Assets.xcassets */; };
 		46A5B65E23A92EF100A56E70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5B65D23A92EF100A56E70 /* SceneDelegate.swift */; };
 		46A5B66023A9303100A56E70 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5B65F23A9303100A56E70 /* AbstractionViewController.swift */; };
+		46DEDC9823ABCC14006382D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DEDC9723ABCC14006382D5 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		46792D8C23A3F165000A0818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46A5B65D23A92EF100A56E70 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = AbstractionProject/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
 		46A5B65F23A9303100A56E70 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		46DEDC9723ABCC14006382D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				46A5B65F23A9303100A56E70 /* AbstractionViewController.swift */,
+				46DEDC9723ABCC14006382D5 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			files = (
 				46A5B66023A9303100A56E70 /* AbstractionViewController.swift in Sources */,
 				46792D7F23A3F164000A0818 /* AppDelegate.swift in Sources */,
+				46DEDC9823ABCC14006382D5 /* ViewController.swift in Sources */,
 				46A5B65E23A92EF100A56E70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AbstractionProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AbstractionProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AbstractionProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AbstractionProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

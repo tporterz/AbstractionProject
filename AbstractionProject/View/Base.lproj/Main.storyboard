@@ -69,7 +69,7 @@
         <!--Abstraction View Controller-->
         <scene sceneID="uHg-Dr-Fnr">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="dQ3-f9-wim" customClass="AbstractionViewController" customModule="AbstractionProject" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="dQ3-f9-wim" customClass="AbstractionViewController" customModule="AbstractionProject" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9IM-rd-bUL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="57" y="-246"/>
